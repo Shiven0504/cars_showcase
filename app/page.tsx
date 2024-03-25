@@ -23,7 +23,7 @@ export default async function Home({ searchParams }: HomeProps) {
           <h1 className='text-4xl font-extrabold'>Car Catalogue</h1>
           <p>Explore out cars you might like</p>
         </div>
-
+		
         <div className='home__filters'>
           <SearchBar />
 
@@ -56,6 +56,3 @@ export default async function Home({ searchParams }: HomeProps) {
     </main>
   );
 }
-
-
-
